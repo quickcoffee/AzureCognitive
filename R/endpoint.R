@@ -227,7 +227,7 @@ get_api_path <- function(type)
         customvision=, customvision_training=, customvision_prediction="customvision/v3.0",
         contentmoderator="contentmoderator/moderate/v1.0",
         text="text/analytics/v2.0",
-        cognitiveservices=, texttranslation="",
+        cognitiveservices=, texttranslation="translate",
         stop("Unknown cognitive service", call.=FALSE)
     )
 }
